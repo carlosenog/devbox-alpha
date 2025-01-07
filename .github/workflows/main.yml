@@ -12,7 +12,7 @@ jobs:
         uses: jetify-com/devbox-install-action@v0.11.0
 
       - name: Run arbitrary commands
-        run: devbox run -- echo "done!"
+        run: devbox run -- echo "No ar!"
 
-      - name: Run a script called test
+      - name: Run a script called run_test
         run: devbox run run_test
