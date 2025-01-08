@@ -6,7 +6,7 @@
   "shell": {
     "init_hook": [],
     "scripts": {
-      "run_test": "ruby -e 'puts \"Olá daqui do Ruby #{RUBY_VERSION}\"'"
+      "run_test": "ruby -e 'puts \"Ola daqui do Ruby #{RUBY_VERSION}\"'"
     }
   }
 }
