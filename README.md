@@ -24,10 +24,10 @@ Scripts are custom commands that can be run using this project's environment. Th
 ## Environment
 
 ```sh
-GEMRC="/home/cedon/dboxalpha/.devbox/virtenv/ruby/.gemrc"
-GEM_HOME="/home/cedon/dboxalpha/.devbox/virtenv/ruby"
-PATH="/home/cedon/dboxalpha/.devbox/virtenv/ruby/bin/:${PATH}"
-RUBY_CONFDIR="/home/cedon/dboxalpha/.devbox/virtenv/ruby"
+GEMRC="$PROJECT_HOME.devbox/virtenv/ruby/.gemrc"
+GEM_HOME="$PROJECT_HOME.devbox/virtenv/ruby"
+PATH="$PROJECT_HOME.devbox/virtenv/ruby/bin/:${PATH}"
+RUBY_CONFDIR="$PROJECT_HOME.devbox/virtenv/ruby"
 ```
 
 ## Shell Init Hook
